@@ -1,0 +1,24 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"6c09957c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "0a6097af",
+		type: "item",
+		title: "Obtain a Sleeping Mat",
+		items: [{
+			id: "cyclicmagic:sleeping_mat",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "e1623fa3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

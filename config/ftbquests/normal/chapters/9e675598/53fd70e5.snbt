@@ -1,0 +1,24 @@
+{
+	x: 12.0d,
+	y: -4.0d,
+	dependencies: [
+		"73e9072b"
+	],
+	tasks: [{
+		uid: "06bf7d23",
+		type: "kill",
+		icon: "minecraft:skull 1 5",
+		entity: "minecraft:ender_dragon",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a4fd1b7c",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "633e1288",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

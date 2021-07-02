@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"c8b1c482"
+	],
+	tasks: [{
+		uid: "b9aa8412",
+		type: "item",
+		title: "Obtain a Tenebrum Ingot",
+		items: [{
+			item: "midnight:tenebrum_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "70ffa575",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "692df401",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

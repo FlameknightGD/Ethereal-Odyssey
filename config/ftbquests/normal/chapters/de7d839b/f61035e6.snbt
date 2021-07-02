@@ -1,0 +1,21 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"cc2eb459"
+	],
+	optional: true,
+	tasks: [{
+		uid: "54165dde",
+		type: "item",
+		title: "Obtain a Runic Altar",
+		items: [{
+			item: "botania:runealtar"
+		}]
+	}],
+	rewards: [{
+		uid: "0d9e67b7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "6eafb679",
+		type: "item",
+		title: "Obtain the Lexica Botania",
+		items: [{
+			id: "botania:lexicon",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "bbdca079",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

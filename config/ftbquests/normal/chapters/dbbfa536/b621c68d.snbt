@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"ab2b76a1"
+	],
+	tasks: [{
+		uid: "4571b1ff",
+		type: "item",
+		title: "Obtain a Divination Sigil",
+		items: [{
+			item: "bloodmagic:sigil_divination"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "8c35f0b4",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "e2835d41",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

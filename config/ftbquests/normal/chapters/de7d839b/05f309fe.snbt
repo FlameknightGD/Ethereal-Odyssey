@@ -1,0 +1,25 @@
+{
+	x: 14.0d,
+	y: -6.0d,
+	dependencies: [
+		"280162ce"
+	],
+	tasks: [{
+		uid: "4f1e68b8",
+		type: "kill",
+		title: "Defeat the Guardian of Gaia",
+		icon: "botania:gaiahead",
+		entity: "botania:doppleganger",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "be1cd1be",
+		type: "ftbmoney:money",
+		ftb_money: 450L
+	},
+	{
+		uid: "52c9dcf8",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"e740b36b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "6b2c0a6d",
+		type: "item",
+		title: "Obtain an Enchanted Golden Date",
+		items: [{
+			item: "atum:golden_date_enchanted"
+		}]
+	}],
+	rewards: [{
+		uid: "ed49ae47",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

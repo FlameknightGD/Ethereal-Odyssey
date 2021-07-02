@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -8.0d,
+	dependencies: [
+		"edb17a36"
+	],
+	optional: true,
+	tasks: [{
+		uid: "556a63d7",
+		type: "item",
+		title: "Obtain an Alchemy Table",
+		items: [{
+			item: "bloodmagic:alchemy_table"
+		}]
+	}],
+	rewards: [{
+		uid: "940f9c60",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

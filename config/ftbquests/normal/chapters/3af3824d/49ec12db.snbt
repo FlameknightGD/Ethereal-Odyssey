@@ -1,0 +1,26 @@
+{
+	x: 5.0d,
+	y: -6.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "81f80678",
+		type: "kill",
+		title: "Slay 20 Minotaurs",
+		icon: "twilightforest:minotaur_axe_gold",
+		entity: "twilightforest:minotaur",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "39d97e5a",
+		type: "ftbmoney:money",
+		ftb_money: 80L,
+		random_bonus: 80
+	},
+	{
+		uid: "46793683",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 3
+	}]
+}

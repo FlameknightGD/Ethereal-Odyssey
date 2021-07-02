@@ -1,0 +1,21 @@
+{
+	title: "Obtain a Sulfur Furnace",
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"837ae397"
+	],
+	tasks: [{
+		uid: "14bc873e",
+		type: "item",
+		title: "Obtain a Sulfur Furnace",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace"
+		}]
+	}],
+	rewards: [{
+		uid: "c9019e6d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

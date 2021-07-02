@@ -1,0 +1,22 @@
+{
+	x: 10.0d,
+	y: -4.0d,
+	dependencies: [
+		"5d76295f"
+	],
+	tasks: [{
+		uid: "5686ed2e",
+		type: "item",
+		title: "Obtain the Terra Blade",
+		items: [{
+			item: "botania:terrasword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec00dc66",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

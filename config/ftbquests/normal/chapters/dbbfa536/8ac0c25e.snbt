@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"3e2552c0"
+	],
+	tasks: [{
+		uid: "12d2f54a",
+		type: "item",
+		title: "Obtain some Demonic Will",
+		items: [{
+			item: "bloodmagic:monster_soul"
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "13fe1170",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

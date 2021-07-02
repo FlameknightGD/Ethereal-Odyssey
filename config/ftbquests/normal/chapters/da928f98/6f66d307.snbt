@@ -1,0 +1,31 @@
+{
+	title: "Obtain all the Materials for an Alchemic Condenser",
+	icon: "rustic:condenser",
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"6a795d87"
+	],
+	tasks: [{
+		uid: "eb6429c5",
+		type: "item",
+		title: "Obtain an Alchemic Condenser",
+		items: [{
+			item: "rustic:condenser"
+		}]
+	},
+	{
+		uid: "26c16a25",
+		type: "item",
+		title: "Obtain 2 Alchemic Retorts",
+		items: [{
+			item: "rustic:retort"
+		}],
+		count: 2L
+	}],
+	rewards: [{
+		uid: "443fcd4d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

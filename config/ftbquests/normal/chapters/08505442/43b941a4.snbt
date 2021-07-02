@@ -1,0 +1,17 @@
+{
+	icon: "twilightforest:miniature_structure",
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "b87d39f0",
+		type: "dimension",
+		title: "Enter the Twilight Forest",
+		icon: "twilightforest:miniature_structure",
+		dim: 7
+	}],
+	rewards: [{
+		uid: "2bb2e230",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

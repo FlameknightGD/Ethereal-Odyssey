@@ -1,0 +1,24 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	dependencies: [
+		"10b85635"
+	],
+	tasks: [{
+		uid: "a8845c42",
+		type: "item",
+		title: "Obtain a Weak Blood Orb",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:weak"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d8309996",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

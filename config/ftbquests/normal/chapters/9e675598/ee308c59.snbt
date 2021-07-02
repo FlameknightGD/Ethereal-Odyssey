@@ -1,0 +1,51 @@
+{
+	title: "Obtain a Full Set of Diamond Armor",
+	icon: "minecraft:diamond_helmet",
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"4385c375"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a9bc5ed5",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "414d9b8c",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "af3aac46",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4ba05a97",
+		type: "item",
+		items: [{
+			item: "minecraft:diamond_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7b58f01c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

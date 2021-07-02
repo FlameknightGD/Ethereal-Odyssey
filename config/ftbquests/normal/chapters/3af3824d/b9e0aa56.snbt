@@ -1,0 +1,26 @@
+{
+	icon: "minecraft:slime_ball",
+	x: 6.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "c8485242",
+		type: "kill",
+		title: "Slay 15 Slimes",
+		icon: "minecraft:slime_ball",
+		entity: "minecraft:slime",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "8540beff",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "5a0f1721",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		random_bonus: 1
+	}]
+}

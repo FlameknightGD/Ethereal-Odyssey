@@ -1,0 +1,45 @@
+{
+	icon: "atum:mummy_helmet",
+	x: -2.5d,
+	y: -4.5d,
+	dependencies: [
+		"ab0d271d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "acc9496c",
+		type: "item",
+		items: [{
+			item: "atum:mummy_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3e01a074",
+		type: "item",
+		items: [{
+			item: "atum:mummy_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c7939e68",
+		type: "item",
+		items: [{
+			item: "atum:mummy_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "8e639d37",
+		type: "item",
+		items: [{
+			item: "atum:mummy_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"3d13e7d2",
+		"8bd55bfb"
+	],
+	tasks: [{
+		uid: "556b438a",
+		type: "item",
+		title: "Obtain some Enchanted Gravitite",
+		items: [{
+			item: "aether_legacy:enchanted_gravitite"
+		}]
+	}],
+	rewards: [{
+		uid: "824ce37e",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

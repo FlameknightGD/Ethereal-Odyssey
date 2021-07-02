@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"6a795d87"
+	],
+	tasks: [{
+		uid: "d088c4ce",
+		type: "item",
+		title: "Obtain a Crushing Tub",
+		items: [{
+			item: "rustic:crushing_tub"
+		}]
+	}],
+	rewards: [{
+		uid: "f26eb50f",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

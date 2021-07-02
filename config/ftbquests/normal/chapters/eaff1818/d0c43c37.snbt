@@ -1,0 +1,28 @@
+{
+	title: "Slay a Barrishee",
+	icon: "thebetweenlands:dungeon_door_runes_mimic",
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"c948521c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "37aeccf2",
+		type: "kill",
+		title: "Slay a Barrishee",
+		icon: "thebetweenlands:dungeon_door_runes_mimic",
+		entity: "thebetweenlands:barrishee",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "91092610",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "0eb5a6d8",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

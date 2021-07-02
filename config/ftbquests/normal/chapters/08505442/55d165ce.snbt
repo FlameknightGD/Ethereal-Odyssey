@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"7d3158b3"
+	],
+	tasks: [{
+		uid: "4a63d113",
+		type: "kill",
+		title: "Slay the Twilight Lich",
+		icon: "twilightforest:trophy 1 1",
+		entity: "twilightforest:lich",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "8ee8f643",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "8a6279fe",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,15 @@
+{
+	x: 1.5d,
+	y: -6.5d,
+	dependencies: [
+		"22886d86"
+	],
+	optional: true,
+	tasks: [{
+		uid: "81e7915e",
+		type: "item",
+		items: [{
+			item: "atum:fish_jeweled"
+		}]
+	}]
+}

@@ -1,0 +1,20 @@
+{
+	x: 8.0d,
+	y: -6.0d,
+	dependencies: [
+		"c5950bde"
+	],
+	tasks: [{
+		uid: "035f6d88",
+		type: "item",
+		title: "Obtain a Blaze Rod",
+		items: [{
+			item: "minecraft:blaze_rod"
+		}]
+	}],
+	rewards: [{
+		uid: "34390528",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

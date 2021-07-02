@@ -1,0 +1,28 @@
+{
+	x: 0.0d,
+	y: -8.0d,
+	text: [
+		"Completing the Totentanz ceremony will make Baykok, an evil spirit in the form of a skeleton, appear. This is a tough fight and you shouldn't go in unprepared."
+	],
+	dependencies: [
+		"987772e3"
+	],
+	tasks: [{
+		uid: "80ba4a54",
+		type: "kill",
+		title: "Defeat Baykok",
+		icon: "totemic:baykok_bow",
+		entity: "totemic:baykok",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d0cb9103",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "875ef595",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

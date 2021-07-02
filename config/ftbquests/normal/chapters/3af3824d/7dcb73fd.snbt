@@ -1,0 +1,25 @@
+{
+	x: -8.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "e9b906f1",
+		type: "kill",
+		title: "Slay 15 Magma Cubes",
+		icon: "minecraft:magma_cream",
+		entity: "minecraft:magma_cube",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "0457df11",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "d26dd3ca",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		random_bonus: 2
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	title: "Obtain a Ball of Sap",
+	icon: "thebetweenlands:sap_ball",
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"9a905c65"
+	],
+	tasks: [{
+		uid: "481e2f69",
+		type: "item",
+		title: "Obtain a Ball of Sap",
+		icon: "thebetweenlands:sap_ball",
+		items: [{
+			item: "thebetweenlands:sap_ball"
+		}]
+	}],
+	rewards: [{
+		uid: "b513f598",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,7 @@
+{
+	title: "Electroblob's Wizardry",
+	icon: "ebwizardry:master_fire_wand",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "hexagon"
+}

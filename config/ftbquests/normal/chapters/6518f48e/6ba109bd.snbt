@@ -1,0 +1,95 @@
+{
+	title: "Obtain any Basic Wand",
+	icon: "ebwizardry:magic_wand",
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"95b260f4"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "ecc446cd",
+		type: "item",
+		title: "Obtain a Magic Wand",
+		items: [{
+			item: "ebwizardry:magic_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "858585c7",
+		type: "item",
+		title: "Obtain a Wand of Embers",
+		items: [{
+			item: "ebwizardry:novice_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "81458774",
+		type: "item",
+		title: "Obtain a Wand of Frost",
+		items: [{
+			item: "ebwizardry:novice_ice_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6a91edf3",
+		type: "item",
+		title: "Obtain a Wand of Sparks",
+		items: [{
+			item: "ebwizardry:novice_lightning_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "201c7096",
+		type: "item",
+		title: "Obtain a Wand of Shadows",
+		items: [{
+			item: "ebwizardry:novice_necromancy_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "7815d852",
+		type: "item",
+		title: "Obtain a Wand of the Forest",
+		items: [{
+			item: "ebwizardry:novice_earth_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "84cc50b6",
+		type: "item",
+		title: "Obtain a Wand of Mystery",
+		items: [{
+			item: "ebwizardry:novice_sorcery_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6194b3b1",
+		type: "item",
+		title: "Obtain a Wand of Healing",
+		items: [{
+			item: "ebwizardry:novice_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7ba3f73c",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

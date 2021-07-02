@@ -1,0 +1,26 @@
+{
+	title: "Obtain a Rattle",
+	x: 0.0d,
+	y: -4.0d,
+	text: [
+		"After getting some Buffalo Teeth from the Buffalo Dance, you will be able to craft a Rattle that will be used for a few different ceremonies."
+	],
+	dependencies: [
+		"63253a6b",
+		"f1c11d56"
+	],
+	tasks: [{
+		uid: "f6be48a8",
+		type: "item",
+		items: [{
+			item: "totemic:rattle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b3cf25e1",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

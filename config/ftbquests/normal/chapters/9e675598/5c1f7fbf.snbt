@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"c5950bde"
+	],
+	tasks: [{
+		uid: "db66c8dc",
+		type: "kill",
+		title: "Slay the Wither",
+		icon: "minecraft:nether_star",
+		entity: "minecraft:wither",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "3f5a72c8",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "b75e00e3",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

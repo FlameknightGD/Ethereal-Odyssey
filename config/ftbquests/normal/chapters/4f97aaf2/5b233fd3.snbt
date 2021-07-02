@@ -1,0 +1,26 @@
+{
+	icon: "aether_legacy:dungeon_key 1 1",
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"e60d4a30"
+	],
+	tasks: [{
+		uid: "ce8e3526",
+		type: "kill",
+		title: "Slay the Valkyrie Queen",
+		icon: "aether_legacy:dungeon_key 1 1",
+		entity: "aether_legacy:valkyrie_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a6347f34",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "22b2c729",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

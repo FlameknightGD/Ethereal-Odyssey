@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"6c09957c"
+	],
+	tasks: [{
+		uid: "8ace506c",
+		type: "item",
+		title: "Obtain a Nature's Compass",
+		items: [{
+			id: "naturescompass:naturescompass",
+			tag: {}
+		}]
+	}],
+	rewards: [{
+		uid: "197f03c9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

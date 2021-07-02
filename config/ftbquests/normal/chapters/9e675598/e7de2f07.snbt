@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: -4.0d,
+	dependencies: [
+		"68f20785"
+	],
+	tasks: [{
+		uid: "c8ea57fb",
+		type: "item",
+		title: "Obtain an Iron Ingot",
+		items: [{
+			item: "minecraft:iron_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "cb3a3eb6",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

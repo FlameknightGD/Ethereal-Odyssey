@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"8ac0c25e"
+	],
+	tasks: [{
+		uid: "ab1a4ad4",
+		type: "item",
+		title: "Obtain a Blood Altar",
+		items: [{
+			item: "bloodmagic:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "b7ee155a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

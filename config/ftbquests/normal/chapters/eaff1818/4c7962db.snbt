@@ -1,0 +1,22 @@
+{
+	title: "Obtain some Limestone Flux",
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"a46764af",
+		"abd48fd8"
+	],
+	optional: true,
+	tasks: [{
+		uid: "847ab5fe",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 27"
+		}]
+	}],
+	rewards: [{
+		uid: "6eb311ec",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

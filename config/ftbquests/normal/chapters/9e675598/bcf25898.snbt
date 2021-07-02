@@ -1,0 +1,27 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	text: [
+		"Doot Doot!"
+	],
+	tasks: [{
+		uid: "69c0a21a",
+		type: "item",
+		title: "Obtain a Trumpet",
+		items: [{
+			item: "trumpetskeleton:trumpet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c3772464",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "a96d38f3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

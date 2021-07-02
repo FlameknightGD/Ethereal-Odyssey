@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"9183b5ad"
+	],
+	tasks: [{
+		uid: "6a8e02d8",
+		type: "item",
+		title: "Obtain an Arcane Workbench",
+		items: [{
+			item: "ebwizardry:arcane_workbench"
+		}]
+	}],
+	rewards: [{
+		uid: "b243ecf8",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

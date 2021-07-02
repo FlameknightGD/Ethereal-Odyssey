@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	dependencies: [
+		"e7de2f07"
+	],
+	tasks: [{
+		uid: "694e8d77",
+		type: "kill",
+		title: "Slay an Elder Guardian",
+		icon: "minecraft:prismarine_shard",
+		entity: "minecraft:elder_guardian",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "ae59bdeb",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "84f6ee1a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

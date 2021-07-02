@@ -1,0 +1,23 @@
+{
+	icon: "thebetweenlands:life_crystal",
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"fcccdb1f"
+	],
+	tasks: [{
+		uid: "f9e942a5",
+		type: "item",
+		title: "Obtain a Life Crystal",
+		items: [{
+			item: "thebetweenlands:life_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "477a4c3b",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

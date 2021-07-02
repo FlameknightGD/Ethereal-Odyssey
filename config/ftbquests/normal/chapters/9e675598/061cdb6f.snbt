@@ -1,0 +1,16 @@
+{
+	title: "Getting Started",
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "d789ba9a",
+		type: "checkmark",
+		title: "Get Started",
+		icon: "minecraft:grass"
+	}],
+	rewards: [{
+		uid: "85cf5a50",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

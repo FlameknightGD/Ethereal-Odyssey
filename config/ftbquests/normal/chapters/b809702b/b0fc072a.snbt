@@ -1,0 +1,44 @@
+{
+	icon: "atum:wanderer_helmet",
+	x: -2.5d,
+	y: -6.5d,
+	dependencies: [
+		"ab0d271d"
+	],
+	tasks: [{
+		uid: "01ed675e",
+		type: "item",
+		items: [{
+			item: "atum:wanderer_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bb82fd51",
+		type: "item",
+		items: [{
+			item: "atum:wanderer_chest"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "d79c2e6a",
+		type: "item",
+		items: [{
+			item: "atum:wanderer_legs"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "649177ec",
+		type: "item",
+		items: [{
+			item: "atum:wanderer_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

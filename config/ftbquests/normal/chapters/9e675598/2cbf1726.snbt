@@ -1,0 +1,22 @@
+{
+	x: 6.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "108c48bd",
+		type: "kill",
+		title: "Slay the Frostmaw",
+		icon: "mowziesmobs:ice_crystal",
+		entity: "mowziesmobs:frostmaw",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "cef87e76",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "4a8b388a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}

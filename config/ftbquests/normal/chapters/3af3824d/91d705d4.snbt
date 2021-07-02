@@ -1,0 +1,26 @@
+{
+	x: -3.0d,
+	y: -6.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "645ec5e9",
+		type: "kill",
+		title: "Slay 25 Hedge Spiders",
+		icon: "minecraft:string",
+		entity: "twilightforest:hedge_spider",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "16c5dc9e",
+		type: "ftbmoney:money",
+		ftb_money: 60L,
+		random_bonus: 60
+	},
+	{
+		uid: "d03b940f",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 1
+	}]
+}

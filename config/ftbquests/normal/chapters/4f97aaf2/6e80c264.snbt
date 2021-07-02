@@ -1,0 +1,26 @@
+{
+	icon: "aether_legacy:dungeon_key 1 2",
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"5b233fd3"
+	],
+	tasks: [{
+		uid: "c0d0a5df",
+		type: "kill",
+		title: "Slay the Sun Spirit",
+		icon: "aether_legacy:dungeon_key 1 2",
+		entity: "aether_legacy:sun_spirit",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "da50d5a1",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "54a9b387",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

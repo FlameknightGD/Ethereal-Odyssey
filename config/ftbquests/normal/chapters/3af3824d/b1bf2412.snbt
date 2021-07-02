@@ -1,0 +1,33 @@
+{
+	icon: {
+		id: "thebetweenlands:shimmer_stone",
+		tag: {}
+	},
+	x: 5.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "63e18722",
+		type: "kill",
+		title: "Slay 5 Peat Mummies",
+		icon: {
+			id: "thebetweenlands:shimmer_stone",
+			tag: {}
+		},
+		entity: "thebetweenlands:peat_mummy",
+		value: 5L
+	}],
+	rewards: [{
+		uid: "b536e603",
+		type: "ftbmoney:money",
+		ftb_money: 120L,
+		random_bonus: 120
+	},
+	{
+		uid: "23cd15c7",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 4,
+		random_bonus: 4
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	icon: "atum:halo_of_ra",
+	x: -1.5d,
+	y: -11.0d,
+	dependencies: [
+		"c00168ec"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4625a4ac",
+		type: "item",
+		items: [{
+			item: "atum:halo_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "931be820",
+		type: "item",
+		items: [{
+			item: "atum:body_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "c4e9c475",
+		type: "item",
+		items: [{
+			item: "atum:legs_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5be05217",
+		type: "item",
+		items: [{
+			item: "atum:feet_of_ra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

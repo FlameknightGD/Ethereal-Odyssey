@@ -1,0 +1,21 @@
+{
+	x: 2.0d,
+	y: -8.0d,
+	dependencies: [
+		"f1fc4886"
+	],
+	optional: true,
+	tasks: [{
+		uid: "ed56aa0d",
+		type: "item",
+		title: "Obtain a Scabyst",
+		items: [{
+			item: "thebetweenlands:items_misc 1 39"
+		}]
+	}],
+	rewards: [{
+		uid: "c4fd9021",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	icon: "lost_aether:platinum_key",
+	x: 0.0d,
+	y: 4.0d,
+	dependencies: [
+		"6e80c264"
+	],
+	tasks: [{
+		uid: "8f2bacb6",
+		type: "kill",
+		title: "Slay the Aerwhale King",
+		icon: "lost_aether:platinum_key",
+		entity: "lost_aether:king_aerwhale",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "fc1a7fe6",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "71f04ea7",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

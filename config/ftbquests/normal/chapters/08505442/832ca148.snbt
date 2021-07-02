@@ -1,0 +1,26 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"43b941a4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b8459ae9",
+		type: "advancement",
+		title: "Give the Questing Ram what it is missing",
+		icon: "twilightforest:trophy 1 8",
+		advancement: "twilightforest:quest_ram",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "3e820140",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "66759498",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

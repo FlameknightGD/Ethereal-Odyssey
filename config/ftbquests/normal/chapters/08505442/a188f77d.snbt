@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"76a1bf12"
+	],
+	tasks: [{
+		uid: "f7aaa3cb",
+		type: "kill",
+		title: "Slay the Snow Queen",
+		icon: "twilightforest:trophy 1 5",
+		entity: "twilightforest:snow_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "9ed9e5b5",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "a812e469",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

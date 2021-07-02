@@ -1,0 +1,95 @@
+{
+	title: "Obtain any Advanced Wand",
+	icon: "ebwizardry:advanced_wand",
+	x: 2.0d,
+	y: -8.0d,
+	dependencies: [
+		"db4fdec3"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "5f736335",
+		type: "item",
+		title: "Obtain an Advanced Wand",
+		items: [{
+			item: "ebwizardry:advanced_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f40c0962",
+		type: "item",
+		title: "Obtain a Wand of the Pyromancer",
+		items: [{
+			item: "ebwizardry:advanced_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "233ad25d",
+		type: "item",
+		title: "Obtain a Wand of the Ice Mage",
+		items: [{
+			item: "ebwizardry:advanced_ice_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5bd3e627",
+		type: "item",
+		title: "Obtain a Wand of the Storm Mage",
+		items: [{
+			item: "ebwizardry:advanced_lightning_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "385bd4c6",
+		type: "item",
+		title: "Obtain a Wand of the Necromancer",
+		items: [{
+			item: "ebwizardry:advanced_necromancy_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "48b85ba8",
+		type: "item",
+		title: "Obtain a Wand of the Earth Mage",
+		items: [{
+			item: "ebwizardry:advanced_earth_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "e234bd5b",
+		type: "item",
+		title: "Obtain a Wand of the Sorcerer",
+		items: [{
+			item: "ebwizardry:advanced_sorcery_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cb008964",
+		type: "item",
+		title: "Obtain a Wand of the Healer",
+		items: [{
+			item: "ebwizardry:advanced_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f3f9efc2",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

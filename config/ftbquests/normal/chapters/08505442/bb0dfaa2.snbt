@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"55d165ce"
+	],
+	tasks: [{
+		uid: "1b73935e",
+		type: "advancement",
+		title: "Defeat the Knight Phantoms",
+		icon: "twilightforest:trophy 1 4",
+		advancement: "twilightforest:progress_knights",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "ed8da2cd",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "39c9acda",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

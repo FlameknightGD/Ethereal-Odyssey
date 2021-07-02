@@ -1,0 +1,22 @@
+{
+	x: -2.0d,
+	y: -6.0d,
+	dependencies: [
+		"826ab6b6"
+	],
+	tasks: [{
+		uid: "84865336",
+		type: "item",
+		title: "Obtain a Petty Tartaric Gem",
+		items: [{
+			id: "bloodmagic:soul_gem",
+			tag: {}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "25faf8a9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

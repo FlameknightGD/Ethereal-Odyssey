@@ -1,0 +1,31 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"cc2eb459"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3f4a2907",
+		type: "item",
+		title: "Obtain a Mana Tablet",
+		icon: {
+			id: "botania:manatablet",
+			tag: {
+				mana: 500000,
+				creative: 1b
+			}
+		},
+		items: [{
+			id: "botania:manatablet",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "60e184a9",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"b695ccf4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "89b7bfb1",
+		type: "item",
+		title: "Obtain a Jingle Dress",
+		items: [{
+			item: "totemic:jingle_dress"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c0c53710",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

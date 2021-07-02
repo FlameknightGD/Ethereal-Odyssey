@@ -1,0 +1,26 @@
+{
+	icon: "minecraft:spider_eye",
+	x: -4.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "9ff3f9a8",
+		type: "kill",
+		title: "Slay 20 Cave Spiders",
+		icon: "minecraft:spider_eye",
+		entity: "minecraft:cave_spider",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "c76ab6c4",
+		type: "ftbmoney:money",
+		ftb_money: 60L,
+		random_bonus: 60
+	},
+	{
+		uid: "19e41e90",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		random_bonus: 2
+	}]
+}

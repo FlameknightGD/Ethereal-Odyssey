@@ -1,0 +1,26 @@
+{
+	icon: "thebetweenlands:chiromaw_wing",
+	x: -3.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "6c003941",
+		type: "kill",
+		title: "Slay 20 Chiromaws",
+		icon: "thebetweenlands:chiromaw_wing",
+		entity: "thebetweenlands:chiromaw",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "e9c8a862",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "f7749429",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		random_bonus: 1
+	}]
+}

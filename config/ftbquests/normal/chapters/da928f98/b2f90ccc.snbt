@@ -1,0 +1,20 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"b115d10f"
+	],
+	tasks: [{
+		uid: "310984eb",
+		type: "item",
+		title: "Obtain a Brewing Barrel",
+		items: [{
+			item: "rustic:brewing_barrel"
+		}]
+	}],
+	rewards: [{
+		uid: "edbadefc",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

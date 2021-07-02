@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 4.0d,
+	dependencies: [
+		"c948521c"
+	],
+	tasks: [{
+		uid: "c7793ba7",
+		type: "kill",
+		title: "Slay the Sludge Menace",
+		icon: "thebetweenlands:sludge_worm_egg_sac",
+		entity: "thebetweenlands:sludge_menace",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d12836c7",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "a9d4335d",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

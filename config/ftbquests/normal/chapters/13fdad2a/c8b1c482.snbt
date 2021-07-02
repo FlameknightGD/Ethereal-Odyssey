@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"07df5d05"
+	],
+	tasks: [{
+		uid: "8469a311",
+		type: "item",
+		title: "Obtain a Nagrilite Ingot",
+		items: [{
+			item: "midnight:nagrilite_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "792c8fe8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

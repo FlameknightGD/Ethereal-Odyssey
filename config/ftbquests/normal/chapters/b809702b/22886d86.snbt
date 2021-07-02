@@ -1,0 +1,14 @@
+{
+	x: 0.0d,
+	y: -5.0d,
+	dependencies: [
+		"ab0d271d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8fce7e8e",
+		type: "advancement",
+		advancement: "atum:core/ahope",
+		criterion: ""
+	}]
+}

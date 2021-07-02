@@ -1,0 +1,20 @@
+{
+	x: 10.0d,
+	y: -8.0d,
+	dependencies: [
+		"5d76295f"
+	],
+	tasks: [{
+		uid: "fd42252c",
+		type: "advancement",
+		title: "Open a Portal to Alfheim",
+		icon: "botania:livingwood 1 5",
+		advancement: "botania:main/elf_portal_open",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "052e5d3c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

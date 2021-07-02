@@ -1,0 +1,28 @@
+{
+	x: 12.0d,
+	y: -4.0d,
+	dependencies: [
+		"59ac4801",
+		"280162ce"
+	],
+	tasks: [{
+		uid: "fd4c4cc8",
+		type: "item",
+		title: "Obtain the Starcaller",
+		items: [{
+			item: "botania:starsword"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "69e1157c",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "48e066e5",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

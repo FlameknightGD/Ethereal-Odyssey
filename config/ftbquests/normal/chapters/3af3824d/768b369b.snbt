@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "1b8c6a28",
+		type: "kill",
+		title: "Slay 35 Skeletons",
+		icon: "minecraft:bone",
+		entity: "minecraft:skeleton",
+		value: 35L
+	}],
+	rewards: [{
+		uid: "996f5bcc",
+		type: "ftbmoney:money",
+		ftb_money: 60L,
+		random_bonus: 60
+	},
+	{
+		uid: "c8159255",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		random_bonus: 2
+	}]
+}

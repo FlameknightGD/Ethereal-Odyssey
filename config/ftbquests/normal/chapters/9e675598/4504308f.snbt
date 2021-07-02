@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"6c09957c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "10039a7f",
+		type: "item",
+		title: "Obtain a Backpack",
+		items: [{
+			item: "improvedbackpacks:backpack"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "30370b30",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

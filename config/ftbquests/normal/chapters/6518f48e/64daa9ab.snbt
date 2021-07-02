@@ -1,0 +1,100 @@
+{
+	title: "Obtain any Master Wand",
+	icon: "ebwizardry:master_wand",
+	x: 0.0d,
+	y: -10.0d,
+	dependencies: [
+		"9c953f65"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "00b48f1d",
+		type: "item",
+		title: "Obtain a Master Wand",
+		items: [{
+			item: "ebwizardry:master_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cadfc483",
+		type: "item",
+		title: "Obtain a Master Pyromancer Wand",
+		items: [{
+			item: "ebwizardry:master_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "6b63a120",
+		type: "item",
+		title: "Obtain a Master Ice Mage Wand",
+		items: [{
+			item: "ebwizardry:master_ice_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "579a825a",
+		type: "item",
+		title: "Obtain a Master Storm Mage Wand",
+		items: [{
+			item: "ebwizardry:master_lightning_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1b5973ff",
+		type: "item",
+		title: "Obtain a Master Necromancer Wand",
+		items: [{
+			item: "ebwizardry:master_necromancy_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0975d1c9",
+		type: "item",
+		title: "Obtain a Master Earth Mage Wand",
+		items: [{
+			item: "ebwizardry:master_earth_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "88c872af",
+		type: "item",
+		title: "Obtain a Master Sorcerer Wand",
+		items: [{
+			item: "ebwizardry:master_sorcery_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "3dd56a61",
+		type: "item",
+		title: "Obtain a Master Healer Wand",
+		items: [{
+			item: "ebwizardry:master_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "84775413",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "6603585a",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

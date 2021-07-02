@@ -1,0 +1,22 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "3b078d07",
+		type: "kill",
+		title: "Slay the Ferrous Wroughtnaut",
+		icon: "mowziesmobs:wrought_axe",
+		entity: "mowziesmobs:ferrous_wroughtnaut",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "582edcc1",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "8748265e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

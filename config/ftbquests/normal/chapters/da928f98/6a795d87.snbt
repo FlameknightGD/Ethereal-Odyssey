@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "ff2ab52f",
+		type: "item",
+		title: "Obtain an Almanac",
+		items: [{
+			item: "rustic:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "f70ab818",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

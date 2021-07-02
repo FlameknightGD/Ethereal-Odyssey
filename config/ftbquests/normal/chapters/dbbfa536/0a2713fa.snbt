@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"edb17a36"
+	],
+	tasks: [{
+		uid: "606f4583",
+		type: "item",
+		title: "Obtain an Incense Altar",
+		items: [{
+			item: "bloodmagic:incense_altar"
+		}]
+	}],
+	rewards: [{
+		uid: "985fc0f0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

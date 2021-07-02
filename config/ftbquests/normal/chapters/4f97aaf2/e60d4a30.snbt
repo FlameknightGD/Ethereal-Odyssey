@@ -1,0 +1,26 @@
+{
+	icon: "aether_legacy:dungeon_key",
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"844bf0c1"
+	],
+	tasks: [{
+		uid: "862c9159",
+		type: "kill",
+		title: "Defeat the Slider",
+		icon: "aether_legacy:dungeon_key",
+		entity: "aether_legacy:slider",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "e9494a2f",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "be868f60",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

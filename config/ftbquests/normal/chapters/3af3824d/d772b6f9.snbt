@@ -1,0 +1,25 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "0e39e681",
+		type: "kill",
+		title: "Slay 30 Creepers",
+		icon: "minecraft:gunpowder",
+		entity: "minecraft:creeper",
+		value: 30L
+	}],
+	rewards: [{
+		uid: "d756e4d7",
+		type: "ftbmoney:money",
+		ftb_money: 70L,
+		random_bonus: 70
+	},
+	{
+		uid: "70974c81",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		random_bonus: 2
+	}]
+}

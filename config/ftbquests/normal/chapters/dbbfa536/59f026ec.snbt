@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	dependencies: [
+		"edb17a36"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d9dfc9bd",
+		type: "item",
+		title: "Obtain a Lava Crystal",
+		items: [{
+			item: "bloodmagic:lava_crystal"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "ec3b4ee8",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

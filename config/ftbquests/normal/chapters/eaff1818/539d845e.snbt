@@ -1,0 +1,28 @@
+{
+	title: "Beating Dead Meat",
+	icon: "thebetweenlands:mummy_bait",
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"fcb7cdab",
+		"2efb84f5"
+	],
+	tasks: [{
+		uid: "fc5e92f9",
+		type: "kill",
+		title: "Slay the Dreadful Peat Mummy",
+		icon: "thebetweenlands:mummy_bait",
+		entity: "thebetweenlands:dreadful_mummy",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "1dd3b7e5",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "a97df6fa",
+		type: "ftbmoney:money",
+		ftb_money: 400L
+	}]
+}

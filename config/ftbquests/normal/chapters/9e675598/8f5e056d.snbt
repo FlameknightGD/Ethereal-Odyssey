@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"6c09957c"
+	],
+	tasks: [{
+		uid: "81346624",
+		type: "item",
+		title: "Obtain a Hang Glider",
+		items: [{
+			item: "openblocks:hang_glider"
+		}]
+	}],
+	rewards: [{
+		uid: "6f6ce9ba",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

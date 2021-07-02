@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"43b941a4"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c185dd3e",
+		type: "item",
+		title: "Obtain the Traveller's Logbook",
+		items: [{
+			id: "patchouli:guide_book",
+			tag: {
+				"patchouli:book": "twilightforest:guide"
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b9f6d1d0",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

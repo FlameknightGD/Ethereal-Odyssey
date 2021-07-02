@@ -1,0 +1,27 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"89c93e14"
+	],
+	tasks: [{
+		uid: "77ad9ac3",
+		type: "item",
+		title: "Obtain a Sticky Yoyo",
+		items: [{
+			item: "yoyos:sticky_yoyo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "c6a90426",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "11bd4847",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

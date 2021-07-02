@@ -1,0 +1,27 @@
+{
+	icon: "thebetweenlands:sludge_ball",
+	x: 3.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "c50194d2",
+		type: "kill",
+		title: "Slay 25 Sludges",
+		icon: "thebetweenlands:sludge_ball",
+		entity: "thebetweenlands:sludge",
+		value: 25L
+	}],
+	rewards: [{
+		uid: "cbb3ca4a",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "043c1b38",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 2
+	}]
+}

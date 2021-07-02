@@ -1,0 +1,13 @@
+{
+	x: 2.0d,
+	y: -4.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "976d5c7d",
+		type: "kill",
+		title: "Slay 20 Spore Creepers",
+		icon: "netherex:spore",
+		entity: "netherex:spore_creeper",
+		value: 20L
+	}]
+}

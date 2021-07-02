@@ -1,0 +1,28 @@
+{
+	title: "Obtain a Mana Pool and a Mana Spreader",
+	icon: "botania:pool",
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"3c43bf34"
+	],
+	tasks: [{
+		uid: "0df9d55f",
+		type: "item",
+		items: [{
+			item: "botania:pool"
+		}]
+	},
+	{
+		uid: "361ab071",
+		type: "item",
+		items: [{
+			item: "botania:spreader"
+		}]
+	}],
+	rewards: [{
+		uid: "9a65fff7",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

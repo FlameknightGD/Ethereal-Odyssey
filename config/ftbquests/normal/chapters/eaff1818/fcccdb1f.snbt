@@ -1,0 +1,21 @@
+{
+	icon: "thebetweenlands:octine_ingot",
+	x: 0.0d,
+	y: -4.0d,
+	dependencies: [
+		"a46764af"
+	],
+	tasks: [{
+		uid: "464c3558",
+		type: "item",
+		title: "Obtain an Octine Ingot",
+		items: [{
+			item: "thebetweenlands:octine_ingot"
+		}]
+	}],
+	rewards: [{
+		uid: "cd694d20",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,19 @@
+{
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "a3be31a0",
+		type: "item",
+		title: "Obtain the Wizard's Handbook",
+		items: [{
+			item: "ebwizardry:wizard_handbook"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "70e17e12",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

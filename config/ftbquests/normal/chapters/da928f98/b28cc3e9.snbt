@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"b115d10f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "36a862d9",
+		type: "item",
+		title: "Obtain some Apple Seeds",
+		items: [{
+			item: "rustic:apple_seeds"
+		}]
+	}],
+	rewards: [{
+		uid: "093493e4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

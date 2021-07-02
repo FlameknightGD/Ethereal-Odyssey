@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"7c68434d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "3ad538c7",
+		type: "item",
+		title: "Obtain a Raw Suavis Slice",
+		items: [{
+			item: "midnight:raw_suavis"
+		}]
+	}],
+	rewards: [{
+		uid: "4bea4eb3",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

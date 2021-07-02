@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: -8.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "20374caf",
+		type: "kill",
+		title: "Slay 15 Valkyries",
+		icon: "aether_legacy:victory_medal",
+		entity: "aether_legacy:valkyrie",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "e0a34938",
+		type: "ftbmoney:money",
+		ftb_money: 75L,
+		random_bonus: 75
+	},
+	{
+		uid: "3ff810cb",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 2
+	}]
+}

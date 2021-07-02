@@ -1,0 +1,46 @@
+{
+	icon: "tconstruct:smeltery_controller",
+	x: 0.0d,
+	y: -8.0d,
+	dependencies: [
+		"31640c2a"
+	],
+	optional: true,
+	tasks: [{
+		uid: "11d226e1",
+		type: "item",
+		title: "Obtain a Smeltery Controller",
+		items: [{
+			item: "tconstruct:smeltery_controller"
+		}]
+	},
+	{
+		uid: "2275919c",
+		type: "item",
+		title: "Obtain a Seared Tank",
+		items: [{
+			item: "tconstruct:seared_tank"
+		}]
+	},
+	{
+		uid: "c58709dc",
+		type: "item",
+		title: "Obtain a Seared Drain",
+		items: [{
+			item: "tconstruct:smeltery_io"
+		}]
+	},
+	{
+		uid: "29c37b48",
+		type: "item",
+		title: "Obtain a Seared Faucet",
+		items: [{
+			item: "tconstruct:faucet"
+		}]
+	}],
+	rewards: [{
+		uid: "57d3e1c9",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

@@ -1,0 +1,23 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	dependencies: [
+		"68f20785"
+	],
+	optional: true,
+	tasks: [{
+		uid: "177b688f",
+		type: "item",
+		title: "Obtain the Book \"Materials and You\"",
+		items: [{
+			item: "tconstruct:book"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "64adbba0",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	icon: "thebetweenlands:items_misc 1 25",
+	x: -5.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "dbf25288",
+		type: "kill",
+		title: "Slay 10 Tar Beasts",
+		icon: "thebetweenlands:items_misc 1 25",
+		entity: "thebetweenlands:tar_beast",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "640fc95c",
+		type: "ftbmoney:money",
+		ftb_money: 120L,
+		random_bonus: 120
+	},
+	{
+		uid: "561fa880",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 4,
+		random_bonus: 4
+	}]
+}

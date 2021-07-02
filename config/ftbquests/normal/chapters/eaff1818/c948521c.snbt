@@ -1,0 +1,21 @@
+{
+	title: "Visit a Sludge Plains Biome",
+	icon: "thebetweenlands:mud",
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"9a905c65"
+	],
+	tasks: [{
+		uid: "1b05df16",
+		type: "biome",
+		title: "Visit a Sludge Plains Biome",
+		icon: "thebetweenlands:mud",
+		biome: "thebetweenlands:sludge_plains"
+	}],
+	rewards: [{
+		uid: "18d12411",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

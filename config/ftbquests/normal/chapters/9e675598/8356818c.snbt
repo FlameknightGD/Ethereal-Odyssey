@@ -1,0 +1,21 @@
+{
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"4385c375"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4749a7d1",
+		type: "item",
+		title: "Obtain an Enchantment Table",
+		items: [{
+			item: "minecraft:enchanting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "a1588394",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

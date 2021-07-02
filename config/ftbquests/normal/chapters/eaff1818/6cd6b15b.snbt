@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: -6.0d,
+	dependencies: [
+		"fcccdb1f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9512c38b",
+		type: "item",
+		title: "Obtain a Valonite Shard",
+		items: [{
+			item: "thebetweenlands:items_misc 1 19"
+		}]
+	}],
+	rewards: [{
+		uid: "7fa51f10",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

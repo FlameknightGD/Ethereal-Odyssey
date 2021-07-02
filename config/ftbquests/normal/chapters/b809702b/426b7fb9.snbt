@@ -1,0 +1,45 @@
+{
+	icon: "atum:eyes_of_atum",
+	x: 0.5d,
+	y: -8.5d,
+	dependencies: [
+		"c00168ec"
+	],
+	optional: true,
+	tasks: [{
+		uid: "f551a9b5",
+		type: "item",
+		items: [{
+			item: "atum:eyes_of_atum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "05354189",
+		type: "item",
+		items: [{
+			item: "atum:body_of_atum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "bc21cfb1",
+		type: "item",
+		items: [{
+			item: "atum:legs_of_atum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "1389d0fd",
+		type: "item",
+		items: [{
+			item: "atum:feet_of_atum"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

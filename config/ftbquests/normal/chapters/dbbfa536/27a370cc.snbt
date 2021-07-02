@@ -1,0 +1,20 @@
+{
+	x: 4.0d,
+	y: -8.0d,
+	dependencies: [
+		"edb17a36"
+	],
+	tasks: [{
+		uid: "e360f24d",
+		type: "item",
+		title: "Obtain a Blank Rune",
+		items: [{
+			item: "bloodmagic:blood_rune"
+		}]
+	}],
+	rewards: [{
+		uid: "06ad082b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

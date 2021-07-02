@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -2.0d,
+	dependencies: [
+		"55d165ce"
+	],
+	tasks: [{
+		uid: "e523c15a",
+		type: "kill",
+		title: "Slay the Alpha Yeti",
+		icon: "twilightforest:alpha_fur",
+		entity: "twilightforest:yeti_alpha",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "b249e12e",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "aa5e9e14",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

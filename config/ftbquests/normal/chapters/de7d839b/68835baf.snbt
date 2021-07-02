@@ -1,0 +1,23 @@
+{
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"322cea24"
+	],
+	tasks: [{
+		uid: "0ffde43e",
+		type: "item",
+		title: "Obtain a Pure Daisy",
+		items: [{
+			id: "botania:specialflower",
+			tag: {
+				type: "puredaisy"
+			}
+		}]
+	}],
+	rewards: [{
+		uid: "461dab2c",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

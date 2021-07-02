@@ -1,0 +1,28 @@
+{
+	x: -4.0d,
+	y: -8.0d,
+	dependencies: [
+		"ffd10b91"
+	],
+	tasks: [{
+		uid: "f546a091",
+		type: "item",
+		title: "Obtain a Sentient Sword",
+		items: [{
+			id: "bloodmagic:sentient_sword",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "91850d29",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "f9706e0a",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

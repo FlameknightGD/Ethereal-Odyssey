@@ -1,0 +1,28 @@
+{
+	x: -6.0d,
+	y: -2.0d,
+	dependencies: [
+		"808a181b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5e9c726f",
+		type: "item",
+		title: "Obtain a Draeton",
+		items: [{
+			item: "thebetweenlands:draeton"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f10fac3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "646c90b4",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

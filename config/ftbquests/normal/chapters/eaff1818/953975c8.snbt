@@ -1,0 +1,26 @@
+{
+	icon: "thebetweenlands:amulet_slot",
+	x: 2.0d,
+	y: 4.0d,
+	dependencies: [
+		"c948521c"
+	],
+	tasks: [{
+		uid: "24b0a6bf",
+		type: "kill",
+		title: "Defeat the Primordial Malevolence",
+		icon: "thebetweenlands:amulet_slot",
+		entity: "thebetweenlands:fortress_boss",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "20a86aad",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "be94477f",
+		type: "ftbmoney:money",
+		ftb_money: 350L
+	}]
+}

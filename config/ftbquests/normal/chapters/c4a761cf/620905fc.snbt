@@ -1,0 +1,26 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"e740b36b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "5071669c",
+		type: "advancement",
+		title: "Catch a Fish in the Atum",
+		icon: "atum:fish_skeletal",
+		advancement: "atum:core/aquaculture",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "c5ada022",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "3a818617",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

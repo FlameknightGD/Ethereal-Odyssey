@@ -1,0 +1,21 @@
+{
+	x: 0.0d,
+	y: 2.0d,
+	dependencies: [
+		"6a795d87"
+	],
+	optional: true,
+	tasks: [{
+		uid: "bf6e08ca",
+		type: "item",
+		title: "Obtain a Drying Basin",
+		items: [{
+			item: "rustic:evaporating_basin"
+		}]
+	}],
+	rewards: [{
+		uid: "192fb725",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

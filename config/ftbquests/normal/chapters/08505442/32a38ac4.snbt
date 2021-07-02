@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -4.0d,
+	dependencies: [
+		"441905b2"
+	],
+	tasks: [{
+		uid: "e8932222",
+		type: "kill",
+		title: "Slay the Hydra",
+		icon: "twilightforest:trophy 1 2",
+		entity: "twilightforest:hydra",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "462c332a",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "39967f1f",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

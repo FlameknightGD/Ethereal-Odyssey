@@ -1,0 +1,20 @@
+{
+	x: 0.0d,
+	y: -2.0d,
+	dependencies: [
+		"061cdb6f"
+	],
+	tasks: [{
+		uid: "12e37dbe",
+		type: "item",
+		title: "Obtain a Crafting Table",
+		items: [{
+			item: "minecraft:crafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "f5fe8a3b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

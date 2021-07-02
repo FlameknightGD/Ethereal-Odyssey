@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: 0.0d,
+	dependencies: [
+		"4385c375"
+	],
+	optional: true,
+	tasks: [{
+		uid: "48ddf6ab",
+		type: "item",
+		title: "Obtain a Reforging Station",
+		items: [{
+			item: "qualitytools:reforging_station"
+		}]
+	}],
+	rewards: [{
+		uid: "a15b41f7",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

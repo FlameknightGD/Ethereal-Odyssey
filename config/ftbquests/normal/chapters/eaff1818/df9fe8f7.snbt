@@ -1,0 +1,22 @@
+{
+	title: "Obtain a Dual Sulfur Furnace",
+	x: -4.0d,
+	y: -4.0d,
+	dependencies: [
+		"a46764af"
+	],
+	optional: true,
+	tasks: [{
+		uid: "21ea3800",
+		type: "item",
+		title: "Obtain a Dual Sulfur Furnace",
+		items: [{
+			item: "thebetweenlands:sulfur_furnace_dual"
+		}]
+	}],
+	rewards: [{
+		uid: "6475e8e4",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

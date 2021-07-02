@@ -1,0 +1,17 @@
+{
+	icon: "aether_legacy:aether_portal_frame",
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "3fbeaa67",
+		type: "dimension",
+		title: "Enter the Aether",
+		icon: "aether_legacy:aether_portal_frame",
+		dim: 4
+	}],
+	rewards: [{
+		uid: "f22c8718",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

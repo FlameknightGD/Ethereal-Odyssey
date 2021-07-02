@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: 0.0d,
+	dependencies: [
+		"b695ccf4"
+	],
+	tasks: [{
+		uid: "3b8da0e9",
+		type: "item",
+		title: "Obtain a Totem Whittling Knife",
+		items: [{
+			item: "totemic:totem_whittling_knife"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "648b4bee",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

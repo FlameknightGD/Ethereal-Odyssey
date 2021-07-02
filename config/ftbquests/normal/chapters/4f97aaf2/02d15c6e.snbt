@@ -1,0 +1,65 @@
+{
+	title: "Obtain a set of Gravitite Armor",
+	icon: "aether_legacy:gravitite_helmet",
+	x: 4.0d,
+	y: 2.0d,
+	dependencies: [
+		"2ec8e49d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "574f528c",
+		type: "item",
+		title: "Obtain a Gravitite Helmet",
+		items: [{
+			item: "aether_legacy:gravitite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "2d009133",
+		type: "item",
+		title: "Obtain a Gravitite Chestplate",
+		items: [{
+			item: "aether_legacy:gravitite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "419d307a",
+		type: "item",
+		title: "Obtain a Gravitite Leggings",
+		items: [{
+			item: "aether_legacy:gravitite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5a79f8c3",
+		type: "item",
+		title: "Obtain a pair of Gravitite Shoes",
+		items: [{
+			item: "aether_legacy:gravitite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fc221b5d",
+		type: "item",
+		title: "Obtain a pair of Gravitite Gloves",
+		items: [{
+			item: "aether_legacy:gravitite_gloves"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "54ee4659",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

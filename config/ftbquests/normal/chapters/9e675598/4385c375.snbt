@@ -1,0 +1,21 @@
+{
+	x: 4.0d,
+	y: -2.0d,
+	dependencies: [
+		"e7de2f07"
+	],
+	optional: true,
+	tasks: [{
+		uid: "03f35db5",
+		type: "item",
+		title: "Obtain some Diamonds",
+		items: [{
+			item: "minecraft:diamond"
+		}]
+	}],
+	rewards: [{
+		uid: "23b540c6",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

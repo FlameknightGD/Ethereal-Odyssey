@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"9280306f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "7f7a0483",
+		type: "item",
+		title: "Obtain a Flower Pouch",
+		items: [{
+			ForgeCaps: {
+				Parent: []
+			},
+			id: "botania:flowerbag"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "2a23cdae",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

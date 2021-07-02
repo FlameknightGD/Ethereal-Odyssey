@@ -1,0 +1,53 @@
+{
+	icon: "thebetweenlands:syrmorite_helmet",
+	x: -6.0d,
+	y: -4.0d,
+	dependencies: [
+		"808a181b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "d43df8e1",
+		type: "item",
+		title: "Obtain a Syrmorite Helmet",
+		items: [{
+			item: "thebetweenlands:syrmorite_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "76e4db81",
+		type: "item",
+		title: "Obtain a Syrmorite Chestplate",
+		items: [{
+			item: "thebetweenlands:syrmorite_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "47cc118b",
+		type: "item",
+		title: "Obtain a Syrmorite Leggings",
+		items: [{
+			item: "thebetweenlands:syrmorite_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "ad9200c3",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:syrmorite_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d84c076d",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 8.0d,
+	y: -2.0d,
+	dependencies: [
+		"c5950bde"
+	],
+	tasks: [{
+		uid: "12c4221f",
+		type: "kill",
+		title: "Slay the Ghast Queen",
+		icon: "netherex:ghast_queen_tear",
+		entity: "netherex:ghast_queen",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "50e39593",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "277322b8",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

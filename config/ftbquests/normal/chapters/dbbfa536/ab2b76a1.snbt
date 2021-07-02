@@ -1,0 +1,22 @@
+{
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"826ab6b6"
+	],
+	tasks: [{
+		uid: "059b0992",
+		type: "item",
+		title: "Obtain some Arcane Ashes",
+		items: [{
+			item: "bloodmagic:arcane_ashes"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "82072b4e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

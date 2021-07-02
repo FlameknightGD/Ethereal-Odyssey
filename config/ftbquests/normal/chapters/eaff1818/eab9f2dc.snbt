@@ -1,0 +1,28 @@
+{
+	title: "Slay a Chiromaw Matriarch",
+	icon: "thebetweenlands:chirobarb_erupter",
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"9a905c65"
+	],
+	optional: true,
+	tasks: [{
+		uid: "80d51361",
+		type: "kill",
+		title: "Slay a Chiromaw Matriarch",
+		icon: "thebetweenlands:chirobarb_erupter",
+		entity: "thebetweenlands:chiromaw_matriarch",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "d46cc8cf",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "7f336c06",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

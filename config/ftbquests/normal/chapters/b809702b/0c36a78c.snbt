@@ -1,0 +1,44 @@
+{
+	icon: "atum:desert_helmet_diamond",
+	x: -2.5d,
+	y: -8.0d,
+	dependencies: [
+		"b0fc072a"
+	],
+	tasks: [{
+		uid: "7b4f314d",
+		type: "item",
+		items: [{
+			item: "atum:desert_helmet_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "072a805a",
+		type: "item",
+		items: [{
+			item: "atum:desert_chest_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "cabc3f88",
+		type: "item",
+		items: [{
+			item: "atum:desert_legs_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "0c746797",
+		type: "item",
+		items: [{
+			item: "atum:desert_boots_diamond"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}]
+}

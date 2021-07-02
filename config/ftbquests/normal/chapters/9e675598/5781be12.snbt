@@ -1,0 +1,50 @@
+{
+	icon: "minecraft:iron_helmet",
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"e7de2f07"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4122a76f",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_helmet"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "4f24290c",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_chestplate"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9c8becc5",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_leggings"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "9a9ba20b",
+		type: "item",
+		items: [{
+			item: "minecraft:iron_boots"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "9f9f7421",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

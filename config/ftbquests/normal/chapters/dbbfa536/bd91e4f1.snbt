@@ -1,0 +1,24 @@
+{
+	x: 6.0d,
+	y: -10.0d,
+	dependencies: [
+		"27a370cc"
+	],
+	tasks: [{
+		uid: "787ed448",
+		type: "item",
+		title: "Obtain an Apprentice Blood Orb",
+		items: [{
+			id: "bloodmagic:blood_orb",
+			tag: {
+				orb: "bloodmagic:apprentice"
+			}
+		}],
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "56b4196f",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

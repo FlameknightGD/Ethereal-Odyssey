@@ -1,0 +1,32 @@
+{
+	title: "Obtain all the materials for an Advanced Alchemic Condenser",
+	icon: "rustic:condenser_advanced",
+	x: 2.0d,
+	y: -4.0d,
+	dependencies: [
+		"6f66d307"
+	],
+	optional: true,
+	tasks: [{
+		uid: "8a34b526",
+		type: "item",
+		title: "Obtain an Advanced Alchemic Condenser",
+		items: [{
+			item: "rustic:condenser_advanced"
+		}]
+	},
+	{
+		uid: "c89561a5",
+		type: "item",
+		title: "Obtain 3 Advanced Alchemic Retorts",
+		items: [{
+			item: "rustic:retort_advanced"
+		}],
+		count: 3L
+	}],
+	rewards: [{
+		uid: "7019a670",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

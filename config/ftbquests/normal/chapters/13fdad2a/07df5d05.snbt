@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"7c68434d"
+	],
+	tasks: [{
+		uid: "79b1e1e0",
+		type: "item",
+		title: "Obtain some Ebonite",
+		items: [{
+			item: "midnight:ebonys"
+		}]
+	}],
+	rewards: [{
+		uid: "b7860140",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

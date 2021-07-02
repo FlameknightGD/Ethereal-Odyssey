@@ -1,0 +1,20 @@
+{
+	title: "Obtain a Syrmorite Ingot",
+	x: -4.0d,
+	y: -2.0d,
+	dependencies: [
+		"a46764af"
+	],
+	tasks: [{
+		uid: "87d64df4",
+		type: "item",
+		items: [{
+			item: "thebetweenlands:items_misc 1 11"
+		}]
+	}],
+	rewards: [{
+		uid: "ddda23e5",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

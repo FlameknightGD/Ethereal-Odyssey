@@ -1,0 +1,18 @@
+{
+	title: "Enter the Betweenlands",
+	icon: "thebetweenlands:swamp_talisman",
+	x: 0.0d,
+	y: 0.0d,
+	tasks: [{
+		uid: "694f9f76",
+		type: "dimension",
+		title: "Enter the Betweenlands",
+		icon: "thebetweenlands:swamp_talisman",
+		dim: 20
+	}],
+	rewards: [{
+		uid: "2763603a",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

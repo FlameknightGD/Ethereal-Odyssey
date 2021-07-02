@@ -1,0 +1,34 @@
+{
+	title: "Obtain a Mortar and Pestle",
+	icon: "thebetweenlands:mortar",
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"837ae397"
+	],
+	optional: true,
+	tasks: [{
+		uid: "865fac51",
+		type: "item",
+		title: "Obtain a Mortar",
+		items: [{
+			item: "thebetweenlands:mortar"
+		}]
+	},
+	{
+		uid: "36b0aaed",
+		type: "item",
+		title: "Obtain a Pestle",
+		items: [{
+			id: "thebetweenlands:pestle",
+			tag: {}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "daed7cf6",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

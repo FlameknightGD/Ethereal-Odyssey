@@ -1,0 +1,39 @@
+{
+	title: "Obtain Magic Beans and a Lamp of Cinders",
+	icon: "twilightforest:magic_beans",
+	x: 10.0d,
+	y: -2.0d,
+	dependencies: [
+		"a188f77d",
+		"32a38ac4",
+		"762775ec"
+	],
+	tasks: [{
+		uid: "4b1feac3",
+		type: "item",
+		title: "Obtain some Magic Beans",
+		items: [{
+			item: "twilightforest:magic_beans"
+		}]
+	},
+	{
+		uid: "25843fba",
+		type: "item",
+		title: "Obtain a Lamp of Cinders",
+		items: [{
+			item: "twilightforest:lamp_of_cinders"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "d313bc15",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "fd8737b0",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

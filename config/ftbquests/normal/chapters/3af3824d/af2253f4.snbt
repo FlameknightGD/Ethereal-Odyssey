@@ -1,0 +1,26 @@
+{
+	x: -7.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "84aff7fd",
+		type: "kill",
+		title: "Slay 15 Lurkers",
+		icon: "thebetweenlands:items_misc 1 4",
+		entity: "thebetweenlands:lurker",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "6c079607",
+		type: "ftbmoney:money",
+		ftb_money: 100L,
+		random_bonus: 100
+	},
+	{
+		uid: "07ac1345",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 3,
+		random_bonus: 2
+	}]
+}

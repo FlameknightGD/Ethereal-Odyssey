@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"4a9d072d"
+	],
+	tasks: [{
+		uid: "c75e5c0d",
+		type: "item",
+		title: "Obtain an Altar",
+		items: [{
+			item: "aether_legacy:enchanter"
+		}]
+	}],
+	rewards: [{
+		uid: "9405ac37",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

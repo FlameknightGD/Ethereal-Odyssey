@@ -1,0 +1,28 @@
+{
+	x: 14.0d,
+	y: -4.0d,
+	dependencies: [
+		"53fd70e5"
+	],
+	optional: true,
+	tasks: [{
+		uid: "c9d3773c",
+		type: "item",
+		title: "Obtain an Elytra",
+		items: [{
+			item: "minecraft:elytra"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "a5ce2e7d",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "d1098117",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

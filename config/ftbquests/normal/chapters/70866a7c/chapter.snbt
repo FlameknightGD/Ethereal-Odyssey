@@ -1,0 +1,7 @@
+{
+	title: "Totemic",
+	icon: "totemic:totemic_staff",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "hexagon"
+}

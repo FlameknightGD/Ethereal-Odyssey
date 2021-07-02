@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	text: [
+		"The Totemist Drum is used for a few different ceremonies and a very important instrument."
+	],
+	dependencies: [
+		"b695ccf4"
+	],
+	tasks: [{
+		uid: "6e13dc1e",
+		type: "item",
+		title: "Obtain a Totemist Drum",
+		items: [{
+			item: "totemic:drum"
+		}]
+	}],
+	rewards: [{
+		uid: "9745d7ef",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

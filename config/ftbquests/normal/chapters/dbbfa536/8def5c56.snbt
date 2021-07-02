@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: -10.0d,
+	dependencies: [
+		"27a370cc"
+	],
+	optional: true,
+	tasks: [{
+		uid: "097ec9af",
+		type: "item",
+		title: "Obtain a Dagger Sacrifice",
+		items: [{
+			item: "bloodmagic:dagger_of_sacrifice"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "b98a0aad",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

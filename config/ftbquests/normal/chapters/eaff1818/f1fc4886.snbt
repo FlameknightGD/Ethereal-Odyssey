@@ -1,0 +1,22 @@
+{
+	x: 2.0d,
+	y: -6.0d,
+	dependencies: [
+		"fcccdb1f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "dea99095",
+		type: "item",
+		title: "Obtain a Purifier",
+		icon: "thebetweenlands:purifier",
+		items: [{
+			item: "thebetweenlands:purifier"
+		}]
+	}],
+	rewards: [{
+		uid: "7dcbf7f1",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

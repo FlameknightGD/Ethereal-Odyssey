@@ -1,0 +1,26 @@
+{
+	x: 6.0d,
+	y: -6.0d,
+	dependencies: [
+		"441905b2"
+	],
+	optional: true,
+	tasks: [{
+		uid: "4326b5e5",
+		type: "item",
+		title: "Obtain an Uncrafting Table",
+		items: [{
+			item: "twilightforest:uncrafting_table"
+		}]
+	}],
+	rewards: [{
+		uid: "385f4464",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	},
+	{
+		uid: "952bea27",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

@@ -1,0 +1,25 @@
+{
+	x: 2.0d,
+	y: -2.0d,
+	dependencies: [
+		"43b941a4"
+	],
+	tasks: [{
+		uid: "6348b6b9",
+		type: "kill",
+		title: "Slay the Naga",
+		icon: "twilightforest:trophy",
+		entity: "twilightforest:naga",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a2d9e05b",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "8ebc9582",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

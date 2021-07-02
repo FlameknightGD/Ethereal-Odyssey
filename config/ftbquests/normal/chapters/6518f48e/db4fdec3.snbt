@@ -1,0 +1,95 @@
+{
+	title: "Obtain any Apprentice Wand",
+	icon: "ebwizardry:apprentice_wand",
+	x: 0.0d,
+	y: -6.0d,
+	dependencies: [
+		"6ba109bd"
+	],
+	or_tasks: true,
+	tasks: [{
+		uid: "a310a3ac",
+		type: "item",
+		title: "Obtain an Apprentice Wand",
+		items: [{
+			item: "ebwizardry:apprentice_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "80ed69d8",
+		type: "item",
+		title: "Obtain an Apprentice Pyromancer Wand",
+		items: [{
+			item: "ebwizardry:apprentice_fire_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b0c3989d",
+		type: "item",
+		title: "Obtain an Apprentice Ice Mage Wand",
+		items: [{
+			item: "ebwizardry:apprentice_ice_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5517e0ab",
+		type: "item",
+		title: "Obtain an Apprentice Storm Mage Wand",
+		items: [{
+			item: "ebwizardry:apprentice_lightning_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "5b4543db",
+		type: "item",
+		title: "Obtain an Apprentice Necromancer Wand",
+		items: [{
+			item: "ebwizardry:apprentice_necromancy_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "f6613a96",
+		type: "item",
+		title: "Obtain an Apprentice Earth Mage Wand",
+		items: [{
+			item: "ebwizardry:apprentice_earth_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fbd3102f",
+		type: "item",
+		title: "Obtain an Apprentice Sorcerer Wand",
+		items: [{
+			item: "ebwizardry:apprentice_sorcery_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "adbde261",
+		type: "item",
+		title: "Obtain an Apprentice Healer Wand",
+		items: [{
+			item: "ebwizardry:apprentice_healing_wand"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "4cfe5fed",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

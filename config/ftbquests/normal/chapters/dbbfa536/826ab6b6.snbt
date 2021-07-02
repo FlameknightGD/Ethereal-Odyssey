@@ -1,0 +1,20 @@
+{
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"8ac0c25e"
+	],
+	tasks: [{
+		uid: "3a55e461",
+		type: "item",
+		title: "Obtain a Hellfire Forge",
+		items: [{
+			item: "bloodmagic:soul_forge"
+		}]
+	}],
+	rewards: [{
+		uid: "546bcbd2",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

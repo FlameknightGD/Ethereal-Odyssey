@@ -1,0 +1,26 @@
+{
+	title: "Obtain a Red Cedar Sapling",
+	x: -4.0d,
+	y: -2.0d,
+	text: [
+		"The Red Cedar Tree can be obtained during a Rite of the Spring and its wood can be used to craft different items."
+	],
+	dependencies: [
+		"f1c11d56",
+		"61efd5ec"
+	],
+	optional: true,
+	tasks: [{
+		uid: "1edb814a",
+		type: "item",
+		title: "Obtain a Red Cedar Sapling",
+		items: [{
+			item: "totemic:cedar_sapling"
+		}]
+	}],
+	rewards: [{
+		uid: "0dd0b27a",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

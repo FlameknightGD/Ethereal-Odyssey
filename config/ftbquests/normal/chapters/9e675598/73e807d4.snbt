@@ -1,0 +1,22 @@
+{
+	x: 8.0d,
+	y: 2.0d,
+	tasks: [{
+		uid: "c4661355",
+		type: "kill",
+		title: "Slay Barako, the Sun Chief",
+		icon: "mowziesmobs:barako_mask",
+		entity: "mowziesmobs:barako",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "5593a7e6",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "456cf70c",
+		type: "ftbmoney:money",
+		ftb_money: 300L
+	}]
+}

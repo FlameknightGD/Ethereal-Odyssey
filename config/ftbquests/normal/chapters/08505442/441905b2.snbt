@@ -1,0 +1,25 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	dependencies: [
+		"55d165ce"
+	],
+	tasks: [{
+		uid: "bd2861cb",
+		type: "kill",
+		title: "Slay the Minoshroom",
+		icon: "twilightforest:trophy 1 6",
+		entity: "twilightforest:minoshroom",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "a2467195",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "a8ce13bf",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

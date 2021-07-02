@@ -1,0 +1,26 @@
+{
+	x: 8.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "0efac221",
+		type: "kill",
+		title: "Slay 10 Witches",
+		icon: "minecraft:glass_bottle",
+		entity: "minecraft:witch",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "bb467e31",
+		type: "ftbmoney:money",
+		ftb_money: 75L,
+		random_bonus: 75
+	},
+	{
+		uid: "aa763a69",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 2
+	}]
+}

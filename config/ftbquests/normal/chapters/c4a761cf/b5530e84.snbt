@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"e740b36b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a0b49b0d",
+		type: "advancement",
+		title: "Tame a Camel",
+		icon: "atum:camel_iron_armor",
+		advancement: "atum:core/ahumpintheroad",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "8dd9a58c",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "53d562bb",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

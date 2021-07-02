@@ -1,0 +1,30 @@
+{
+	title: "Obtain some Livingwood and Livingrock",
+	icon: "botania:livingrock",
+	x: 6.0d,
+	y: 0.0d,
+	dependencies: [
+		"68835baf"
+	],
+	tasks: [{
+		uid: "405cb5fd",
+		type: "item",
+		title: "Obtain some Livingwood",
+		items: [{
+			item: "botania:livingwood"
+		}]
+	},
+	{
+		uid: "4983cee8",
+		type: "item",
+		title: "Obtain some Livingrock",
+		items: [{
+			item: "botania:livingrock"
+		}]
+	}],
+	rewards: [{
+		uid: "e344f089",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

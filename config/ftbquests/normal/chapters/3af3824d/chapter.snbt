@@ -1,0 +1,7 @@
+{
+	title: "Mob Grinding",
+	icon: "thebetweenlands:items_misc 1 14",
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: "hexagon"
+}

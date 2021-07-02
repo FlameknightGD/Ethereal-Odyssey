@@ -1,0 +1,20 @@
+{
+	icon: "minecraft:flint_and_steel",
+	x: 6.0d,
+	y: -4.0d,
+	dependencies: [
+		"e7de2f07"
+	],
+	tasks: [{
+		uid: "eaf6654f",
+		type: "dimension",
+		title: "Enter the Nether",
+		icon: "minecraft:flint_and_steel",
+		dim: -1
+	}],
+	rewards: [{
+		uid: "54eec235",
+		type: "ftbmoney:money",
+		ftb_money: 150L
+	}]
+}

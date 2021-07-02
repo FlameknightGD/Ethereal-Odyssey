@@ -1,0 +1,23 @@
+{
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"6c09957c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "07221f08",
+		type: "item",
+		title: "Obtain a Wooden Yoyo",
+		items: [{
+			item: "yoyos:wooden_yoyo"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "6ef569cf",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

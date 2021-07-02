@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"061cdb6f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "a33309ea",
+		type: "item",
+		title: "Obtain a Food Book",
+		items: [{
+			item: "solcarrot:food_book"
+		}]
+	}],
+	rewards: [{
+		uid: "a07e4759",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

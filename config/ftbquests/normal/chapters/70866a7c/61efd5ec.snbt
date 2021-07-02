@@ -1,0 +1,22 @@
+{
+	title: "Obtain a Flute",
+	x: -2.0d,
+	y: 0.0d,
+	dependencies: [
+		"b695ccf4"
+	],
+	tasks: [{
+		uid: "721dffdf",
+		type: "item",
+		items: [{
+			item: "totemic:flute"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "7e75c71b",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

@@ -1,0 +1,26 @@
+{
+	x: 7.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "8ca14725",
+		type: "kill",
+		title: "Slay 20 Anglers",
+		icon: "thebetweenlands:items_misc 1 21",
+		entity: "thebetweenlands:angler",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "39733549",
+		type: "ftbmoney:money",
+		ftb_money: 75L,
+		random_bonus: 75
+	},
+	{
+		uid: "31f6a0ac",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 2
+	}]
+}

@@ -1,0 +1,27 @@
+{
+	icon: "minecraft:blaze_rod",
+	x: -6.0d,
+	y: 0.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "0b98c3d5",
+		type: "kill",
+		title: "Slay 20 Blazes",
+		icon: "minecraft:blaze_rod",
+		entity: "minecraft:blaze",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "0e4126dc",
+		type: "ftbmoney:money",
+		ftb_money: 70L,
+		random_bonus: 70
+	},
+	{
+		uid: "588c5c38",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 2
+	}]
+}

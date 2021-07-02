@@ -1,0 +1,26 @@
+{
+	x: 2.0d,
+	y: -8.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "9c221b6d",
+		type: "kill",
+		title: "Slay 10 Mimics",
+		icon: "aether_legacy:skyroot_chest",
+		entity: "aether_legacy:mimic",
+		value: 10L
+	}],
+	rewards: [{
+		uid: "91f94b3c",
+		type: "ftbmoney:money",
+		ftb_money: 80L,
+		random_bonus: 80
+	},
+	{
+		uid: "61ac23aa",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 3
+	}]
+}

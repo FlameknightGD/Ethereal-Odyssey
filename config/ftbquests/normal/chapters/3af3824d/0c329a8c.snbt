@@ -1,0 +1,25 @@
+{
+	x: 3.0d,
+	y: -6.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "18cf08c9",
+		type: "kill",
+		title: "Slay 20 Kobolds",
+		icon: "minecraft:book",
+		entity: "twilightforest:kobold",
+		value: 20L
+	}],
+	rewards: [{
+		uid: "d385344f",
+		type: "ftbmoney:money",
+		ftb_money: 50L,
+		random_bonus: 50
+	},
+	{
+		uid: "7cb7e179",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		random_bonus: 1
+	}]
+}

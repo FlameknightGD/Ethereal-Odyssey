@@ -1,0 +1,27 @@
+{
+	icon: "thebetweenlands:items_misc 1 14",
+	x: -1.0d,
+	y: -2.0d,
+	can_repeat: true,
+	tasks: [{
+		uid: "6b136703",
+		type: "kill",
+		title: "Slay 15 Swamp Hags",
+		icon: "thebetweenlands:items_misc 1 14",
+		entity: "thebetweenlands:swamp_hag",
+		value: 15L
+	}],
+	rewards: [{
+		uid: "79f9f6bc",
+		type: "ftbmoney:money",
+		ftb_money: 60L,
+		random_bonus: 60
+	},
+	{
+		uid: "47595a48",
+		type: "item",
+		item: "scalinghealth:heartdust",
+		count: 2,
+		random_bonus: 2
+	}]
+}

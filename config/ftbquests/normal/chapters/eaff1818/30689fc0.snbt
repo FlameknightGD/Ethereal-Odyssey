@@ -1,0 +1,68 @@
+{
+	title: "Obtain some Herblore Equipment",
+	icon: "thebetweenlands:sickle",
+	x: -2.0d,
+	y: -4.0d,
+	dependencies: [
+		"6cd6b15b"
+	],
+	optional: true,
+	tasks: [{
+		uid: "e91af2de",
+		type: "item",
+		title: "Obtain a Sickle",
+		items: [{
+			item: "thebetweenlands:sickle"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "b4fa7e36",
+		type: "item",
+		title: "Obtain a Herblore Book",
+		items: [{
+			item: "thebetweenlands:manual_hl"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "63026512",
+		type: "item",
+		title: "Obtain a Gecko Cage",
+		items: [{
+			item: "thebetweenlands:gecko_cage"
+		}]
+	},
+	{
+		uid: "8885bdc0",
+		type: "item",
+		title: "Obtain a Net",
+		items: [{
+			item: "thebetweenlands:net"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	},
+	{
+		uid: "fd134c70",
+		type: "item",
+		title: "Catch a Gecko",
+		items: [{
+			id: "thebetweenlands:critter",
+			tag: {
+				Entity: {
+					id: "thebetweenlands:gecko"
+				}
+			}
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "5a5539c3",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

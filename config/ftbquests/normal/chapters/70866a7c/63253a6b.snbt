@@ -1,0 +1,24 @@
+{
+	title: "Obtain a Wind Chime",
+	x: 2.0d,
+	y: -2.0d,
+	text: [
+		"The Wind Chime is used for a variety of different ceremonies and it is a very useful instrument to have."
+	],
+	dependencies: [
+		"b695ccf4"
+	],
+	tasks: [{
+		uid: "06089906",
+		type: "item",
+		title: "Obtain a Wind Chime",
+		items: [{
+			item: "totemic:wind_chime"
+		}]
+	}],
+	rewards: [{
+		uid: "65b020b9",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

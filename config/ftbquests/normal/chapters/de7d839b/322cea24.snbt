@@ -1,0 +1,20 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"9280306f"
+	],
+	tasks: [{
+		uid: "7191cb40",
+		type: "item",
+		title: "Obtain a Petal Apothecary",
+		items: [{
+			item: "botania:altar"
+		}]
+	}],
+	rewards: [{
+		uid: "9c99ff90",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

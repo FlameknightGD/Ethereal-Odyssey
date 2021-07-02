@@ -1,0 +1,23 @@
+{
+	x: 2.0d,
+	y: 2.0d,
+	dependencies: [
+		"061cdb6f"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b39a97cd",
+		type: "item",
+		title: "Obtain an Akashic Tome",
+		items: [{
+			item: "akashictome:tome"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "40213504",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

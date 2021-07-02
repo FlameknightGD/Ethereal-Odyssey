@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"9183b5ad"
+	],
+	tasks: [{
+		uid: "4ef489a9",
+		type: "advancement",
+		title: "Restore an Imbuement Altar",
+		icon: "ebwizardry:imbuement_altar",
+		advancement: "ebwizardry:restore_imbuement_altar",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "ca3db43e",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "9dfca687",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	}]
+}

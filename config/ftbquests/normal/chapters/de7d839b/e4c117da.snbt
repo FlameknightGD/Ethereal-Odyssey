@@ -1,0 +1,26 @@
+{
+	x: 4.0d,
+	y: -6.0d,
+	dependencies: [
+		"98be43a1"
+	],
+	optional: true,
+	tasks: [{
+		uid: "2bdb728e",
+		type: "advancement",
+		title: "Create a Botania Enchanter",
+		icon: "botania:corporeaspark",
+		advancement: "botania:main/enchanter_make",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "49b0b1e9",
+		type: "ftbmoney:money",
+		ftb_money: 200L
+	},
+	{
+		uid: "0e38f7cc",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	}]
+}

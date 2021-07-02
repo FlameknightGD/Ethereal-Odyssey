@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: 2.0d,
+	dependencies: [
+		"7c68434d"
+	],
+	optional: true,
+	tasks: [{
+		uid: "b90f8b63",
+		type: "item",
+		title: "Obtain a Bladeshroom Cap",
+		items: [{
+			item: "midnight:bladeshroom_cap"
+		}]
+	}],
+	rewards: [{
+		uid: "d493290d",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

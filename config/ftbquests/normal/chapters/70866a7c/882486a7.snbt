@@ -1,0 +1,23 @@
+{
+	x: -4.0d,
+	y: 0.0d,
+	dependencies: [
+		"61efd5ec"
+	],
+	optional: true,
+	tasks: [{
+		uid: "64422944",
+		type: "item",
+		title: "Obtain a Pan's Flute",
+		items: [{
+			item: "totemic:flute 1 1"
+		}],
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "430ffc49",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

@@ -1,0 +1,45 @@
+{
+	icon: "storagenetwork:request",
+	x: 6.0d,
+	y: -6.0d,
+	dependencies: [
+		"e7de2f07"
+	],
+	optional: true,
+	tasks: [{
+		uid: "9e1a65e1",
+		type: "item",
+		title: "Obtain the Storage Network Master",
+		items: [{
+			item: "storagenetwork:master"
+		}]
+	},
+	{
+		uid: "5e9477b2",
+		type: "item",
+		title: "Obtain the Storage Request Table",
+		items: [{
+			item: "storagenetwork:request"
+		}]
+	},
+	{
+		uid: "85462cd0",
+		type: "item",
+		title: "Obtain a Storage Link Cable",
+		items: [{
+			item: "storagenetwork:storage_kabel"
+		}]
+	},
+	{
+		uid: "8132312f",
+		type: "item",
+		items: [{
+			item: "storagenetwork:kabel"
+		}]
+	}],
+	rewards: [{
+		uid: "deac336e",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

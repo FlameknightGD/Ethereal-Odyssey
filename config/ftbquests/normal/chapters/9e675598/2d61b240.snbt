@@ -1,0 +1,21 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"6c09957c"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fd8f12d6",
+		type: "item",
+		title: "Obtain a Crafting Pad",
+		items: [{
+			item: "vt:pad"
+		}]
+	}],
+	rewards: [{
+		uid: "f93b5616",
+		type: "ftbmoney:money",
+		ftb_money: 50L
+	}]
+}

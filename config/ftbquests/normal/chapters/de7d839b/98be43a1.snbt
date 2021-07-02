@@ -1,0 +1,20 @@
+{
+	x: 6.0d,
+	y: -4.0d,
+	dependencies: [
+		"cc2eb459"
+	],
+	tasks: [{
+		uid: "c6162ed0",
+		type: "item",
+		title: "Obtain a Manasteel Ingot",
+		items: [{
+			item: "botania:manaresource"
+		}]
+	}],
+	rewards: [{
+		uid: "29393410",
+		type: "ftbmoney:money",
+		ftb_money: 100L
+	}]
+}

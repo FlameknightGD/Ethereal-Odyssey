@@ -1,0 +1,25 @@
+{
+	x: -2.0d,
+	y: -2.0d,
+	dependencies: [
+		"e740b36b"
+	],
+	tasks: [{
+		uid: "e91dab2f",
+		type: "kill",
+		title: "Slay a Pharao",
+		icon: "atum:ras_fury",
+		entity: "atum:pharaoh",
+		value: 1L
+	}],
+	rewards: [{
+		uid: "783584da",
+		type: "item",
+		item: "scalinghealth:heartcontainer"
+	},
+	{
+		uid: "0cf2ca68",
+		type: "ftbmoney:money",
+		ftb_money: 250L
+	}]
+}

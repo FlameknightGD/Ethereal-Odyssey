@@ -1,0 +1,26 @@
+{
+	x: -4.0d,
+	y: -6.0d,
+	dependencies: [
+		"30689fc0"
+	],
+	optional: true,
+	tasks: [{
+		uid: "fbb52081",
+		type: "advancement",
+		title: "Complete your Herblore Book",
+		icon: "thebetweenlands:manual_hl",
+		advancement: "thebetweenlands:herbalist/fully_booked",
+		criterion: ""
+	}],
+	rewards: [{
+		uid: "85ffff8b",
+		type: "item",
+		item: "scalinghealth:crystalshard"
+	},
+	{
+		uid: "9b011c8a",
+		type: "ftbmoney:money",
+		ftb_money: 500L
+	}]
+}
