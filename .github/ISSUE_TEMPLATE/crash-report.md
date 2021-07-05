@@ -8,4 +8,4 @@ assignees: FlameknightGD
 ---
 
 ### Crash Report File
-Please add your crash report file that you can find in the "crash-reports" folder of the modpack.
+Please add your crash report file below.
